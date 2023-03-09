@@ -1,4 +1,4 @@
-# Set up an easy-to-use development environment for PHP using docker. 
+# Set up an easy-to-use development environment for PHP using docker. 🐘
 
 > PHP version: 5.6
 >
@@ -6,7 +6,7 @@
 >
 > Webserver: Apache
 
-## Install Docker
+## Install Docker 🐳
 You need to install docker-desktop. It is available on most operating systems. If you use windows then you may need to enable WSL or hyper-v. 
 Download link: https://www.docker.com/products/docker-desktop/. 
 
@@ -25,12 +25,12 @@ docker-compose --version
 
 If they execute successfully then you are good to go.
 
-## Setup your project
+## Setup your project 🏗️
 1- Clone this repo or download it in a folder.
 
 2- Then move your code which has the PHP files to the 'code' folder.
 
-## SQL connection
+## SQL connection 🔗
 This docker-compose file is configured to have a MySQL server inside it. You should update your PHP code to use the following:
 > Host Name: database
 > 
@@ -48,7 +48,7 @@ If you want to connect to the database from outside the PHP container you can us
 
 
 
-## Run the project
+## Run the project 🏃
 1- Open your terminal and change directories to the folder where you have the docker-compose.yml file.
 
 2- Run the following command:
