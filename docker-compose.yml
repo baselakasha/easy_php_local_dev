@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  web:
+    container_name: web
+    build: ./php_docker
+    volumes:
+      - ./code:/var/www/html/
+    ports:
+      - 8000:80
+    
+  mysql:
+    container_name: database
+    image: biarms/mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: database
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - ./data:/var/lib/mysql
+    ports:
+      - 3306:3306
