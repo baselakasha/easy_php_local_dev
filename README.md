@@ -1,7 +1,9 @@
 # Set up an easy-to-use development environment for PHP using docker. 
 
 > PHP version: 5.6
+>
 > MYSQL version: 5.7
+>
 > Webserver: Apache
 
 ## Install Docker
@@ -30,9 +32,13 @@ If they execute successfully then you are good to go.
 ## SQL connection
 This docker-compose file is configured to have a MySQL server inside it. You should update your PHP code to use the following:
 > Host Name: database
+> 
 > Port: 3306
+>
 > Database: database
+> 
 > User: user
+> 
 > Password: password
 
 You can change these by editing the docker-compose.yml file.
