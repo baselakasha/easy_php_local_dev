@@ -27,6 +27,7 @@ If they execute successfully then you are good to go.
 
 ## Setup your project
 1- Clone this repo or download it in a folder.
+
 2- Then move your code which has the PHP files to the 'code' folder.
 
 ## SQL connection
@@ -49,7 +50,9 @@ If you want to connect to the database from outside the PHP container you can us
 
 ## Run the project
 1- Open your terminal and change directories to the folder where you have the docker-compose.yml file.
+
 2- Run the following command:
+
 ```bash
 docker-compose up
 ```
